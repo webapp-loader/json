@@ -29,4 +29,13 @@ console.log(version);
 
 The bundle would only include the version:
 
+```js
+const version = "0.0.0";
+console.log('Current version of this loader', version);
+```
+
+And the optimized build would look like:
+
+```js
+const a='0.0.0';console.log('Current version of this loader', a);
 ```
